@@ -5,6 +5,7 @@ module.exports = {
   clientUrl: process.env.CLIENT_URL,
   jwtSecret: process.env.JWT_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || "7d",
+  aiServiceUrl: process.env.AI_SERVICE_URL || "http://localhost:8000",
   db: {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT || 3306,

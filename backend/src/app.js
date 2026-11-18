@@ -15,6 +15,7 @@ const complaintRoutes = require("./routes/complaintRoutes");
 const lostFoundRoutes = require("./routes/lostFoundRoutes");
 const documentRoutes = require("./routes/documentRoutes");
 const notificationRoutes = require("./routes/notificationRoutes");
+const aiRoutes = require("./routes/aiRoutes");
 
 const errorMiddleware = require("./middleware/errorMiddleware");
 
@@ -50,6 +51,7 @@ app.use("/api/complaints", complaintRoutes);
 app.use("/api/lost-found", lostFoundRoutes);
 app.use("/api/documents", documentRoutes);
 app.use("/api/notifications", notificationRoutes);
+app.use("/api/ai", aiRoutes);
 
 // --------------------
 // Test Route

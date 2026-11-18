@@ -3,3 +3,7 @@
 @media(max-width:1000px){.stat-grid{grid-template-columns:repeat(2,1fr)}.event-grid{grid-template-columns:repeat(2,1fr)}.timetable-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:800px){.sidebar{transform:translateX(-100%);transition:.2s}.sidebar.show{transform:none}.overlay{display:block;position:fixed;inset:0;background:#07172c99;z-index:15}.menu-btn{display:grid}.main{margin-left:0}.topbar{padding:0 15px}.content{padding:20px 15px}.mini-profile div:last-child{display:none}.grid-2,.attendance-overview,.chat-layout{grid-template-columns:1fr}.lost-grid,.document-grid{grid-template-columns:1fr}.placement-hero{align-items:flex-start;gap:15px;flex-direction:column}}
 @media(max-width:560px){.login-page{grid-template-columns:1fr}.login-art{display:none}.mobile-brand{display:flex;align-items:center;gap:8px;margin-bottom:30px}.event-grid,.stat-grid{grid-template-columns:1fr 1fr}.compose-row{flex-direction:column}.two-actions{flex-wrap:wrap}.welcome,.page-heading{display:block}.date-chip{margin-top:10px;width:max-content}}
+.message div{white-space:pre-wrap}
+.src-row{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.src-chip{display:inline-flex;align-items:center;gap:4px;background:#fff;border:1px solid #d5e1f1;color:#3a6a9f;border-radius:20px;padding:3px 8px;font-size:8px}
+.chat-input button:disabled,.chat-input input:disabled{opacity:.6}

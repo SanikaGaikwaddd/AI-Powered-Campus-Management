@@ -1,4 +1,4 @@
-console.log("ENV LOADED:", require("./env"));
+
 const mysql = require("mysql2/promise");
 const env = require("./env");
 
